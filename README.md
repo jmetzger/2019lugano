@@ -31,3 +31,13 @@ Changing the ossec.conf file
     <directories check_all="yes" report_changes="yes" realtime="yes">/etc,/usr/bin,/usr/sbin</directories>
     <directories check_all="yes" report_changes="yes" realtime="yes">/bin,/sbin,/boot</directories>
 ```
+
+```
+# change in rules/local_rules.xml 
+  <rule id="554" level="7" overwrite="yes">
+    <category>ossec</category>
+    <decoded_as>syscheck_new_entry</decoded_as>
+    <description>xFile added to the system.</description>
+    <group>syscheck,</group>
+  </rule>
+```
