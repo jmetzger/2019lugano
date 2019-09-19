@@ -18,3 +18,16 @@ cd /usr/src
  tar xzf pcre2-10.32.tar.gz -C src/external
  ./install.sh 
  ```
+
+Changing the ossec.conf file 
+(right after syscheck) 
+
+```
+<syscheck>
+ <frequency>60</frequency>
+    <alert_new_files>yes</alert_new_files>
+
+ <!-- Directories to check  (perform all possible verifications) -->
+    <directories check_all="yes" report_changes="yes" realtime="yes">/etc,/usr/bin,/usr/sbin</directories>
+    <directories check_all="yes" report_changes="yes" realtime="yes">/bin,/sbin,/boot</directories>
+```
