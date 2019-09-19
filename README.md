@@ -41,3 +41,10 @@ Changing the ossec.conf file
     <group>syscheck,</group>
   </rule>
 ```
+
+### Journald ###
+
+```
+Creating it persistantly
+mkdir /var/log/journal 
+systemctl restart systemd-journald
