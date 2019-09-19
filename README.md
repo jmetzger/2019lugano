@@ -53,3 +53,6 @@ systemctl restart systemd-journald
 
 https://www.amazon.de/gp/product/B01LWM02WI/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1
 
+### disable udev ###
+
+https://www.rootusers.com/how-to-disable-usb-storage-devices-in-linux/
