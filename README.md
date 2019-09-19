@@ -9,7 +9,7 @@ http://schulung.t3isp.de/documents/linux-security.pdf
 ```
 ### OSSEC - lokal ###
 yum install epel-release 
-yum install -y gcc inotify-tools zlib-devel wget
+yum install -y gcc inotify-tools zlib-devel wget unzip 
 cd /usr/src 
  wget https://github.com/ossec/ossec-hids/archive/3.3.0.zip
  unzip 3.3.0.zip 
