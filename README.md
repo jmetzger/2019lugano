@@ -48,3 +48,8 @@ Changing the ossec.conf file
 Creating it persistantly
 mkdir /var/log/journal 
 systemctl restart systemd-journald
+
+### selinux ### 
+
+https://www.amazon.de/gp/product/B01LWM02WI/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1
+
