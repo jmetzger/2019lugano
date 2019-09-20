@@ -61,3 +61,6 @@ https://www.rootusers.com/how-to-disable-usb-storage-devices-in-linux/
 
 https://github.com/jmetzger/2019lugano/blob/master/README.md
 
+Locking out port scanners:
+https://unix.stackexchange.com/questions/345114/how-to-protect-against-port-scanners
+
